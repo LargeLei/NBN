@@ -384,12 +384,16 @@ a.mask {
   display: block;
 }
 img.zoom-img {
+	width: 100%;
   -webkit-transform: scale(1, 1);
   -webkit-transition-timing-function: ease-out;
   -webkit-transition-duration: 250ms;
   -moz-transform: scale(1, 1);
   -moz-transition-timing-function: ease-out;
   -moz-transition-duration: 250ms;
+}
+img.only{
+	height: 6.2rem;
 }
 img.zoom-img:hover {
   -webkit-transform: scale(1.1);
@@ -529,7 +533,7 @@ font-size: 1.1em;
 }
 /*--about--*/
 .header-banner {
-  background: url("../images/9990_01.png")no-repeat 0px 0px;
+  background: url("../images/kelun.jpg")no-repeat 0px 0px;
   background-size: cover;
   min-height: 140px;
 }
